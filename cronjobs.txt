@@ -20,6 +20,4 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-*/5 * * * * /home/pi/rpi3/ngrok/ngrok_rpi3_spawn_if_killed.sh > /dev/null 2>&1
-#*/5 * * * * /home/pi/rpi3/pwr_detect/pwr_det_daemon_rpi3_spawn_if_killed.sh > /dev/null 2>&1
 */5 * * * * /home/pi/rpi3/pwr_detect/pwr_det_daemon_rpi3_spawn_if_killed.sh > /home/pi/rpi3/pwr_detect/logs/cronlogs.log
